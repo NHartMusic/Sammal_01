@@ -17,10 +17,9 @@ const MenuItem = styled(Link)`
 export default function Menu(): JSX.Element {
     return (
         <MenuWrapper>
+
             <MenuItem to='/music'>
-                <SubTitle>
-                    Music
-                </SubTitle>
+                <SubTitle>Music</SubTitle>
             </MenuItem>
 
             <MenuItem to='/visuals'>
