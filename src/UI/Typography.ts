@@ -1,5 +1,10 @@
 import styled from 'styled-components'
 
+export const TextWrapper = styled.div`
+  display: flex;
+  margin: 20px 0px;
+`
+
 export const Title = styled.h1`
     display: flex; 
     margin: 0 auto;
@@ -13,3 +18,4 @@ export const SubTitle = styled.h3`
     color: white;
     text-decoration: none;
 `
+

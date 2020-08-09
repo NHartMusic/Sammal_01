@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { SubTitle } from '../UI/Typography'
+import { SubTitle } from '../../UI/Typography'
 
 const MenuWrapper = styled.div`
     display: flex;

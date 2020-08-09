@@ -1,21 +1,14 @@
 import React from 'react'
-import styled from 'styled-components'
-import { Route, Switch } from "react-router-dom";
-import PageTitle from './Components/PageTitle'
-import Menu from './Components/Menu'
-import Music from './Components/Music'
-import Visuals from './Components/Visuals'
-import Social from './Components/Social'
+import { Route, Switch } from "react-router-dom"
+import Navbar from './Components/Navbar/Navbar'
+import { Home, Music, Visuals, Social } from './Components/Pages'
 
 function App() {
-
-
   return (
     <>
-      <PageTitle />
-      <Menu />
+      <Navbar />
       <Switch>
-        <Route exact path="/" />
+        <Route exact path="/" component={Home} />
         <Route path='/music' component={Music} />
         <Route path="/visuals" component={Visuals} />
         <Route path="/social" component={Social} />
