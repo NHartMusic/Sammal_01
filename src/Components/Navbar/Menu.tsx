@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { SubTitle } from '../../UI/Typography'
 
+
 const MenuWrapper = styled.div`
     display: flex;
     margin: 0 auto;
@@ -13,6 +14,7 @@ const MenuWrapper = styled.div`
 const MenuItem = styled(Link)`
     text-decoration: none;
 `
+
 
 export default function Menu(): JSX.Element {
     return (

@@ -1,10 +1,12 @@
 import React from 'react'
-import { Title } from '../../UI/Typography'
+import { Title, TextWrapper } from '../../UI/Typography'
 
-export default function Social() {
+export default function Social(): JSX.Element {
     return (
         <>
-            <Title>Social</Title>
+            <TextWrapper>
+                <Title>Social</Title>
+            </TextWrapper>
         </>
     )
 }

@@ -1,10 +1,12 @@
 import React from 'react'
-import { Title } from '../../UI/Typography'
+import { Title, TextWrapper } from '../../UI/Typography'
 
-export default function Music() {
+export default function Music(): JSX.Element {
     return (
         <>
-            <Title>music</Title>
+            <TextWrapper>
+                <Title>Music</Title>
+            </TextWrapper>
         </>
     )
 }
