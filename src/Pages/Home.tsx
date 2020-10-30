@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 //UI Elements
-import { ImageLarge, ImageContainer, fade1, fade2 } from '../../UI/Media'
-import { SubTitle, FadeWrapper, TextWrapper } from '../../UI/Typography'
+import { ImageLarge, ImageContainer, fade1, fade2 } from '../UI/Media'
+import { SubTitle, FadeWrapper, TextWrapper } from '../UI/Typography'
 //components
-import brain1 from '../../Assets/brain1.jpg'
-import { Circle } from '../../UI/ScrollElements'
+import brain1 from '../Assets/brain1.jpg'
+import { Circle } from '../UI/ScrollElements'
 
 const Test = styled.div`
     display: flex;

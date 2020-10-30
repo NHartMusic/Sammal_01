@@ -13,7 +13,7 @@ export default function PageTitle(): JSX.Element {
     return (
         <TextWrapper>
             <TitleLink to='/'>
-                <Title>Broken Brain</Title>
+                <Title>Sammal</Title>
             </TitleLink>
         </TextWrapper>
     )

@@ -1,6 +1,6 @@
 import React from 'react'
-import { Title, TextWrapper } from '../../UI/Typography'
-import { Circle } from '../../UI/ScrollElements'
+import { Title, TextWrapper } from '../UI/Typography'
+import { Circle } from '../UI/ScrollElements'
 import styled from 'styled-components'
 
 const Test = styled.body`

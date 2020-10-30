@@ -1,4 +1,4 @@
-export interface Mixins {
+export interface Mixin {
     1: string
     2: string
     3: string
