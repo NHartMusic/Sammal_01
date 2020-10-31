@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Link } from 'react-router-dom'
-import { Title, TextWrapper } from '../../UI/Typography'
 
-const TitleLink = styled(Link)`
+import { Title, MenuLink } from '../../UI/Typography'
+import { TextWrapperCenter } from '../../UI/Containers'
+
+const TitleLink = styled(MenuLink)`
     display: flex;
     margin: 0 auto;
     text-decoration: none;
@@ -11,10 +12,12 @@ const TitleLink = styled(Link)`
 
 export default function PageTitle(): JSX.Element {
     return (
-        <TextWrapper>
-            <TitleLink to='/'>
-                <Title>Sammal</Title>
+        <TextWrapperCenter>
+            <Title>
+                <TitleLink to='/'>
+                    Sammal
             </TitleLink>
-        </TextWrapper>
+            </Title>
+        </TextWrapperCenter>
     )
 }

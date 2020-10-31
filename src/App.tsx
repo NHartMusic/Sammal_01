@@ -5,11 +5,7 @@ import styled from 'styled-components'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer'
 //pages
-import { Home, Music, Visuals, Social } from './Pages'
-
-type LinkProps = {
-  title: string
-}
+import { Home, About, Products, Team, Connect } from './Pages'
 
 const ContentWrapper = styled.div`
   height: 100%;
@@ -23,9 +19,10 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path='/music' component={Music} />
-          <Route path="/visuals" component={Visuals} />
-          <Route path="/social" component={Social} />
+          <Route path='/about' component={About} />
+          <Route path="/products" component={Products} />
+          <Route path="/team" component={Team} />
+          <Route path="/connect" component={Connect} />
         </Switch>
         <Footer />
       </ContentWrapper>

@@ -14,11 +14,6 @@ export const SubTitle = styled.h3`
     text-decoration: none;
 `
 
-export const TextWrapper = styled.div`
-  display: flex;
-  margin: 20px 0px;
-`
-
 export const ParagraphLarge = styled.h4`
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -28,6 +23,7 @@ export const ParagraphLarge = styled.h4`
 export const ParagraphRegular = styled.p`
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    color: white;
 `
 
 export const MenuLink = styled(Link)`

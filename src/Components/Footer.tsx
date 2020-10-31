@@ -23,7 +23,7 @@ const Footer = () => (
       © {new Date().getFullYear()} &nbsp;<MenuLink to='https://www.kiekurecords.com/'>Kieku Records</MenuLink>
     </FooterText>
     <FooterText>
-      Site built by &nbsp;<MenuLink to='https://github.com/NHartMusic'>Nick Hart</MenuLink>
+      Site built by &nbsp;<MenuLink to='https://github.com/NHartAbout'>Nick Hart</MenuLink>
     </FooterText>
   </StyledFooter>
 )

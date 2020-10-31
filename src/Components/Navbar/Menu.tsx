@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { SubTitle } from '../../UI/Typography'
+import { SubTitle, MenuLink } from '../../UI/Typography'
 
 
 const MenuWrapper = styled.div`
@@ -11,26 +11,26 @@ const MenuWrapper = styled.div`
     width: 100%;
 `
 
-const MenuItem = styled(Link)`
-    text-decoration: none;
-`
-
 
 export default function Menu(): JSX.Element {
     return (
         <MenuWrapper>
 
-            <MenuItem to='/music'>
-                <SubTitle>Music</SubTitle>
-            </MenuItem>
+            <SubTitle>
+                <MenuLink to='/about'>About</MenuLink>
+            </SubTitle>
 
-            <MenuItem to='/visuals'>
-                <SubTitle>Visuals</SubTitle>
-            </MenuItem>
+            <SubTitle>
+                <MenuLink to='/products'>Products</MenuLink>
+            </SubTitle>
 
-            <MenuItem to='/social'>
-                <SubTitle>Social</SubTitle>
-            </MenuItem>
+            <SubTitle>
+                <MenuLink to='/team'>Team</MenuLink>
+            </SubTitle>
+
+            <SubTitle>
+                <MenuLink to='/connect'>Connect</MenuLink>
+            </SubTitle>
 
         </MenuWrapper>
     )
