@@ -2,34 +2,29 @@ import React from 'react'
 import styled from 'styled-components'
 //UI Elements
 import { ImageLarge, ImageContainer, fade1, fade2 } from '../UI/Media'
-import { SubTitle, FadeWrapper } from '../UI/Typography'
-import { TextWrapperCenter } from '../UI/Containers'
-//components
-import brain1 from '../Assets/brain1.jpg'
-import { Circle } from '../UI/ScrollElements'
-
-const Test = styled.div`
-    display: flex;
-    margin: 0 auto;
-`
+import { SubTitle } from '../UI/Typography'
+import { TextWrapperCenter, FadeWrapperFlex } from '../UI/Containers'
+import { Circle, CircleWrapper } from '../UI/ScrollElements'
+//Assets
+import Spectogram_01 from '../Assets/Spectogram_01.png'
 
 export default function Home(): JSX.Element {
     return (
         <>
-            <Test>
+            <CircleWrapper>
                 <Circle />
                 <Circle />
                 <Circle />
-            </Test>
+            </CircleWrapper>
 
             <TextWrapperCenter>
-                <FadeWrapper
+                <FadeWrapperFlex
                     variants={fade2}
                     initial='hidden'
                     animate='visible'
                 >
                     <SubTitle>Welcome Home</SubTitle>
-                </FadeWrapper>
+                </FadeWrapperFlex>
             </TextWrapperCenter>
 
             <ImageContainer
@@ -37,7 +32,7 @@ export default function Home(): JSX.Element {
                 initial='hidden'
                 animate='visible'
             >
-                <ImageLarge src={brain1} />
+                <ImageLarge src={Spectogram_01} />
             </ImageContainer>
 
         </>

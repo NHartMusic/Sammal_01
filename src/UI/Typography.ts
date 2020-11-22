@@ -1,12 +1,6 @@
 import styled from 'styled-components'
-import { motion } from 'framer-motion'
 import { Blues, Greens, Greyscale } from './Colors'
 import { Link } from 'react-router-dom'
-
-export const FadeWrapper = styled(motion.div)`
-  display: flex;
-  margin: 0 auto;
-`
 
 export const SubTitle = styled.h3`
     font-family: Sora;
@@ -26,11 +20,11 @@ export const ParagraphRegular = styled.p`
     color: white;
 `
 
-export const MenuLink = styled(Link)`
+export const TextLink = styled(Link)`
     text-decoration: none;
     color: white;
     &:hover {
-        color: ${ Blues[2]};
+        color: ${Blues[2]};
         transition: 0.3s;
     }
 `

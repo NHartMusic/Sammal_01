@@ -17,6 +17,11 @@ const ScrollContainer = styled(motion.div)`
     border-radius: 50%;
 `
 
+export const CircleWrapper = styled.div`
+    display: flex;
+    margin: 0 auto;
+`
+
 const ScrollCircle = styled(motion.div)`
     width: 100px;
     height: 100px;

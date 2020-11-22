@@ -19,6 +19,16 @@ export const ImageContainer = styled(motion.div)`
     align-items: center;
 `
 
+export const fade0 = {
+    hidden: {
+        opacity: 0,
+    },
+    visible: {
+        opacity: 1,
+        transition: { delay: 0.3, duration: 1.8 }
+    }
+}
+
 export const fade1 = {
     hidden: {
         opacity: 0,
@@ -36,5 +46,15 @@ export const fade2 = {
     visible: {
         opacity: 1,
         transition: { delay: 0.7, duration: 2.5 }
+    }
+}
+
+export const fade3 = {
+    hidden: {
+        opacity: 0,
+    },
+    visible: {
+        opacity: 1,
+        transition: { delay: 0.8, duration: 2.8 }
     }
 }

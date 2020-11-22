@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Switch, RouteComponentProps } from "react-router-dom"
+import { Route, Switch } from "react-router-dom"
 import styled from 'styled-components'
 //components
 import Navbar from './Components/Navbar/Navbar'
@@ -15,6 +15,7 @@ const ContentWrapper = styled.div`
 function App() {
   return (
     <>
+
       <ContentWrapper>
         <Navbar />
         <Switch>

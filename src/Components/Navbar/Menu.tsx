@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import { SubTitle, MenuLink } from '../../UI/Typography'
+import { SubTitle, TextLink } from '../../UI/Typography'
 
 
 const MenuWrapper = styled.div`
@@ -17,19 +17,19 @@ export default function Menu(): JSX.Element {
         <MenuWrapper>
 
             <SubTitle>
-                <MenuLink to='/about'>About</MenuLink>
+                <TextLink to='/about'>About</TextLink>
             </SubTitle>
 
             <SubTitle>
-                <MenuLink to='/products'>Products</MenuLink>
+                <TextLink to='/products'>Products</TextLink>
             </SubTitle>
 
             <SubTitle>
-                <MenuLink to='/team'>Team</MenuLink>
+                <TextLink to='/team'>Team</TextLink>
             </SubTitle>
 
             <SubTitle>
-                <MenuLink to='/connect'>Connect</MenuLink>
+                <TextLink to='/connect'>Connect</TextLink>
             </SubTitle>
 
         </MenuWrapper>

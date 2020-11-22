@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 //styles
-import { ParagraphRegular, MenuLink } from '../UI/Typography'
+import { ParagraphRegular, TextLink } from '../UI/Typography'
 
 const StyledFooter = styled.footer`
   display: flex;
@@ -20,10 +20,10 @@ const FooterText = styled(ParagraphRegular)`
 const Footer = () => (
   <StyledFooter>
     <FooterText>
-      © {new Date().getFullYear()} &nbsp;<MenuLink to='https://www.kiekurecords.com/'>Kieku Records</MenuLink>
+      © {new Date().getFullYear()} &nbsp;<TextLink to='https://www.kiekurecords.com/'>Kieku Records</TextLink>
     </FooterText>
     <FooterText>
-      Site built by &nbsp;<MenuLink to='https://github.com/NHartAbout'>Nick Hart</MenuLink>
+      Site built by &nbsp;<TextLink to='https://github.com/NHartAbout'>Nick Hart</TextLink>
     </FooterText>
   </StyledFooter>
 )
