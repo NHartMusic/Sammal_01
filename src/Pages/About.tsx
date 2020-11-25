@@ -12,17 +12,20 @@ export default function About(): JSX.Element {
             <TextWrapperCenter>
                 <Title>About</Title>
             </TextWrapperCenter>
+
+            <FadeWrapperBlock
+                variants={fade1}
+                initial='hidden'
+                animate='visible'
+            >
+                <ImageContainer>
+                    <ImageLarge src={Waveform_01} />
+                </ImageContainer>
+            </FadeWrapperBlock>
+
             <TextWrapperLeft>
 
-                <FadeWrapperBlock
-                    variants={fade1}
-                    initial='hidden'
-                    animate='visible'
-                >
-                    <ImageContainer>
-                        <ImageLarge src={Waveform_01} />
-                    </ImageContainer>
-                </FadeWrapperBlock>
+
 
                 <FadeWrapperBlock
                     variants={fade2}

@@ -1,6 +1,11 @@
 import React from 'react'
 import { Title } from '../UI/Typography'
-import { TextWrapperCenter } from '../UI/Containers'
+import { ImageLarge, ImageContainer, fade1, fade2 } from '../UI/Media'
+import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../UI/Containers'
+
+
+//Assets
+import Waveform_01 from '../Assets/Waveform_01.png'
 
 export default function Connect(): JSX.Element {
     return (
@@ -8,6 +13,16 @@ export default function Connect(): JSX.Element {
             <TextWrapperCenter>
                 <Title>Connect</Title>
             </TextWrapperCenter>
+
+            <FadeWrapperBlock
+                variants={fade1}
+                initial='hidden'
+                animate='visible'
+            >
+                <ImageContainer>
+                    <ImageLarge src={Waveform_01} />
+                </ImageContainer>
+            </FadeWrapperBlock>
         </>
     )
 }

@@ -35,6 +35,14 @@ export default function Home(): JSX.Element {
                 <ImageLarge src={Spectogram_01} />
             </ImageContainer>
 
+            
+            <a href={require('../Assets/Kieku_Pitch_Deck.pdf')} target="_blank">
+                <button>
+                    Download the Pitch Here
+                </button>
+            </a>
+                
+
         </>
     )
 }

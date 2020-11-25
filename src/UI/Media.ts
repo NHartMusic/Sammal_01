@@ -13,6 +13,18 @@ export const ImageLarge = styled.img`
     width: 100%;
 `
 
+export const ImageSmall = styled.img`
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 450px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+`
+
 export const ImageContainer = styled(motion.div)`
     display: flex;
     margin: 0 auto;

@@ -1,22 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { Title, TextLink } from '../../UI/Typography'
+import { Title } from '../../UI/Typography'
 import { TextWrapperCenter } from '../../UI/Containers'
-
-const TitleLink = styled(TextLink)`
-    display: flex;
-    margin: 0 auto;
-    text-decoration: none;
-`
+import { ImageSmall } from '../../UI/Media'
+import Kieku_Logo_Black from '../../Assets/Kieku_Logo_Black.png'
 
 export default function PageTitle(): JSX.Element {
     return (
         <TextWrapperCenter>
             <Title>
-                <TitleLink to='/'>
-                    Sammal
-            </TitleLink>
+                <ImageSmall src={Kieku_Logo_Black} />
             </Title>
         </TextWrapperCenter>
     )
