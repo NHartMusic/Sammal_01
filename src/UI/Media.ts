@@ -17,10 +17,10 @@ export const ImageSmall = styled.img`
     display: flex;
     margin: 0 auto;
     padding: 20px;
-    min-width: 200px;
-    min-height: 200px;
-    max-width: 450px;
-    max-height: 300px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 400px;
+    max-height: 250px;
     height: 100%;
     width: 100%;
 `

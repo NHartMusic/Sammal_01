@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title, ParagraphRegular, TextLink } from '../UI/Typography'
+import { Title, SubTitle, ParagraphRegular, TextLink } from '../UI/Typography'
 import { fade0, fade1, fade2, fade3 } from '../UI/Media'
 import { TextWrapperCenter, TextWrapperLeft, FadeWrapperBlock } from '../UI/Containers'
 
@@ -15,7 +15,7 @@ export default function Team(): JSX.Element {
                 animate='visible'
             >
                 <TextWrapperCenter>
-                    <Title>Meet the Team</Title>
+                    <Title>Founders</Title>
                 </TextWrapperCenter>
             </FadeWrapperBlock>
 
@@ -25,15 +25,11 @@ export default function Team(): JSX.Element {
                     initial='hidden'
                     animate='visible'
                 >
+                    <SubTitle>Janne Lounatvuori</SubTitle>
                     <ParagraphRegular>
-                        Sammal is a brand new music technology company under the umbrella of Finnish label&nbsp;<TextLink to='https://www.kiekurecords.com/'>Kieku Records</TextLink>.
-                        Our goal is to use the cutting edge of modern technology to help
-                        human composers unlock their inner potential in ways that have never been possible
-                        before. Sammal was created by a&nbsp;<TextLink to='https://www.kiekurecords.com/'>brain trust</TextLink>
-                        &nbsp; of musicians, audio engineers, computer
-                        scientists and career music industry professionals who have come to the collective realization
-                        that technology is inevatibly going to become more and intwined with music creation,
-                        and that we need to embrace this rather than fear it.
+                        21 years of experience in the Music Business.
+                        Music Production, Songwriter, Audio Engineering
+                        Founder/Owner at Kaiku Studios Berlin GbR
                     </ParagraphRegular>
                 </FadeWrapperBlock>
 
@@ -42,16 +38,11 @@ export default function Team(): JSX.Element {
                     initial='hidden'
                     animate='visible'
                 >
+                    <SubTitle>Jonas Verwijnen</SubTitle>
                     <ParagraphRegular>
-                        Sammal is a brand new music technology company under the umbrella of Finnish label
-                        &nbsp;<TextLink to='https://www.kiekurecords.com/'>Kieku Records</TextLink>.
-                        Our goal is to use the cutting edge of modern technology to help
-                        human composers unlock their inner potential in ways that have never been possible
-                        before. Sammal was created by a &nbsp;<TextLink to='https://www.kiekurecords.com/'>brain trust</TextLink>
-                        &nbsp; of musicians, audio engineers, computer
-                        scientists and career music industry professionals who have come to the collective realization
-                        that technology is inevatibly going to become more and intwined with music creation,
-                        and that we need to embrace this rather than fear it.
+                        15 years of experience in the Music Business.
+                        Artist Manager, Music Producer, Audio Engineer, Tour Manager, Songwriter
+                        Founder/Owner at Kaiku Studios Berlin GbR
                     </ParagraphRegular>
                 </FadeWrapperBlock>
 
@@ -60,16 +51,11 @@ export default function Team(): JSX.Element {
                     initial='hidden'
                     animate='visible'
                 >
+                    <SubTitle>Antti Ojala</SubTitle>
                     <ParagraphRegular>
-                        Sammal is a brand new music technology company under the umbrella of Finnish label
-                        &nbsp;<TextLink to='https://www.kiekurecords.com/'>Kieku Records</TextLink>.
-                        Our goal is to use the cutting edge of modern technology to help
-                        human composers unlock their inner potential in ways that have never been possible
-                        before. Sammal was created by a &nbsp;<TextLink to='https://www.kiekurecords.com/'>brain trust</TextLink>
-                        &nbsp; of musicians, audio engineers, computer
-                        scientists and career music industry professionals who have come to the collective realization
-                        that technology is inevatibly going to become more and intwined with music creation,
-                        and that we need to embrace this rather than fear it.
+                        13 years of experience in Music Business
+                        Music composer, Video production
+                        Owner at Stereotype Studio Oy Owner at TOCC Oy
                     </ParagraphRegular>
                 </FadeWrapperBlock>
 

@@ -15,7 +15,6 @@ const ContentWrapper = styled.div`
 function App() {
   return (
     <>
-
       <ContentWrapper>
         <Navbar />
         <Switch>
@@ -27,7 +26,6 @@ function App() {
         </Switch>
         <Footer />
       </ContentWrapper>
-
     </>
   )
 }
